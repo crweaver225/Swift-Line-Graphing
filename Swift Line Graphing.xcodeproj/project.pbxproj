@@ -14,6 +14,7 @@
 		2EB288DC1DB55F79000A9AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB288DA1DB55F79000A9AA9 /* LaunchScreen.storyboard */; };
 		2EB288E71DB55F79000A9AA9 /* Swift_Line_GraphingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB288E61DB55F79000A9AA9 /* Swift_Line_GraphingTests.swift */; };
 		2EB288F21DB55F7A000A9AA9 /* Swift_Line_GraphingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB288F11DB55F79000A9AA9 /* Swift_Line_GraphingUITests.swift */; };
+		2EB289001DB55F9A000A9AA9 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB288FF1DB55F9A000A9AA9 /* LineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2EB288ED1DB55F79000A9AA9 /* Swift Line GraphingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Line GraphingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB288F11DB55F79000A9AA9 /* Swift_Line_GraphingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Line_GraphingUITests.swift; sourceTree = "<group>"; };
 		2EB288F31DB55F7A000A9AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB288FF1DB55F9A000A9AA9 /* LineGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2EB288D11DB55F79000A9AA9 /* AppDelegate.swift */,
 				2EB288D31DB55F79000A9AA9 /* ViewController.swift */,
+				2EB288FF1DB55F9A000A9AA9 /* LineGraph.swift */,
 				2EB288D51DB55F79000A9AA9 /* Main.storyboard */,
 				2EB288D81DB55F79000A9AA9 /* Assets.xcassets */,
 				2EB288DA1DB55F79000A9AA9 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EB288D41DB55F79000A9AA9 /* ViewController.swift in Sources */,
+				2EB289001DB55F9A000A9AA9 /* LineGraph.swift in Sources */,
 				2EB288D21DB55F79000A9AA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
